@@ -1,0 +1,12 @@
+// EXTJS-29586
+// UTF-8 character values for expander and expanded-expanded icons
+
+$tree-arrow-glyph : '\25b8';
+$tree-arrow-expanded-glyph : '\25be';
+
+/**
+ * @class Ext.list.TreeItem
+ */
+
+$treelist-item-expander-font-size: dynamic(16px);
+$treelist-item-expander-font-size-big: dynamic(22px);
