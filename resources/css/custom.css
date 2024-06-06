@@ -1,0 +1,9 @@
+/* resources/css/custom.css */
+.custom-phone-column {
+    font-weight: bold;
+    color: #1a73e8; /* Example color */
+}
+
+.custom-action-button {
+    margin-right: 10px;
+}

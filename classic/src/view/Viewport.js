@@ -15,7 +15,7 @@ Ext.define('Youtube.view.Viewport',{
         },
         {
             region: 'south',
-            html: '<h1>footer port</h1>'
+            html: '<h1>footer port </h1>'
         },
     ]
 })

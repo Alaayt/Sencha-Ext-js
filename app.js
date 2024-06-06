@@ -1,4 +1,3 @@
-
 Ext.application({
     extend: 'Youtube.Application',
 
@@ -7,6 +6,18 @@ Ext.application({
     requires: [
         'Youtube.*'
     ],
+
+    "css": [
+        {
+            "path": "resources/css/custom.css",
+            "update": "append"
+        }
+    ],
+    
+    "resources": [
+        "resources"
+    ],
+
     launch: function () {
         viewport = Ext.getCmp('viewport');
         target = viewport.down('#viewport-target');
