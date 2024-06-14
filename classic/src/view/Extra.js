@@ -21,7 +21,7 @@ Ext.define("Youtube.view.main.Extra", {
         renderer: function(value) {
             return '<span class="custom-phone-column">' + value + '</span>';
         } 
-         },
+        },
         { text: 'Website', dataIndex: 'website', flex: 1 },
         //{ text: 'operation', flex: 1 },
         {
